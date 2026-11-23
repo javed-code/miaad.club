@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="684" height="556" viewBox="170 234 684 556">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#F3DDA2"/>
+      <stop offset="0.5" stop-color="#D2AD63"/>
+      <stop offset="1" stop-color="#A9823F"/>
+    </linearGradient>
+    <mask id="gap" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect width="1024" height="1024" fill="white"/>
+      <path d="M574 382 L652 460 L804 284" fill="none" stroke="black" stroke-width="112" stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g mask="url(#gap)">
+    <rect x="208" y="420" width="520" height="332" rx="52" fill="#FFFFFF" fill-opacity="0" stroke="#0B3A41" stroke-width="36"/>
+    <rect x="276" y="500" width="96" height="70" rx="16" fill="url(#gold)"/>
+    <path d="M276 660 H428 M464 660 H536" stroke="#0B3A41" stroke-opacity="0.55" stroke-width="22" stroke-linecap="round"/>
+  </g>
+  <path d="M574 382 L652 460 L804 284" fill="none" stroke="url(#gold)" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
