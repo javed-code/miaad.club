@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "GH27WJNGK7.ae.miaad.app"
+        ],
+        "components": [
+          {
+            "/": "/pay/*"
+          }
+        ]
+      }
+    ]
+  }
+}
