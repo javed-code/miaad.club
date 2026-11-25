@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>انضم إلى قائمة الانتظار · ميعاد</title>
+<meta name="description" content="يعرض ميعاد جميع بطاقاتك الائتمانية وفواتيرك في الإمارات في مكان واحد، حتى لا يفوتك موعد استحقاق. متوافق مع الشريعة. بالدعوة فقط.">
+<meta name="theme-color" content="#0b3a41">
+<link rel="canonical" href="https://www.miaad.club/ar/waitlist/">
+<link rel="alternate" hreflang="en" href="https://www.miaad.club/waitlist/">
+<link rel="alternate" hreflang="ar" href="https://www.miaad.club/ar/waitlist/">
+<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/plex-arabic-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<meta property="og:title" content="ميعاد · تطبيق واحد لجميع بطاقاتك الائتمانية في الإمارات">
+<meta property="og:description" content="يعرض ميعاد جميع بطاقاتك الائتمانية وفواتيرك في الإمارات في مكان واحد، حتى لا يفوتك موعد استحقاق. متوافق مع الشريعة. بالدعوة فقط.">
+<meta property="og:image" content="https://www.miaad.club/assets/img/apple-touch-icon.png">
+</head>
+<body>
+<header class="site-header"><div class="wrap bar">
+<a class="logo" href="/ar/"><img src="/assets/img/mark-on-light.svg" alt="" width="38" height="31">ميعاد</a>
+<nav class="site-nav" aria-label="الصفحات">
+<a href="/ar/privacy.html">الخصوصية</a>
+<a href="/ar/support.html">المساعدة</a>
+<a class="lang" href="/waitlist/" lang="en" hreflang="en">English</a>
+</nav>
+</div></header>
+<main>
+<article class="doc form-page"><h1>انضم إلى قائمة الانتظار</h1><p>ميعاد في تجربة خاصة مع أصدقاء مدعوين. اترك بياناتك وسندعوك عندما يتوفر مكان. ميعاد للمقيمين في الإمارات.</p>
+<form class="waitlist" method="post" action="https://api.miaad.club/api/v1/public/waitlist" accept-charset="utf-8">
+<input type="hidden" name="language" value="ar">
+<div class="trap" aria-hidden="true"><label>اترك هذا فارغاً <input name="website" tabindex="-1" autocomplete="off"></label></div>
+<label class="field"><span>اسمك</span><input name="name" required maxlength="80" autocomplete="name"></label>
+<label class="field"><span>البريد الإلكتروني</span><input name="email" type="email" required maxlength="254" autocomplete="email" dir="ltr"></label>
+<label class="field"><span>رقم الجوال الإماراتي</span><input name="phone" type="tel" required inputmode="tel" autocomplete="tel" maxlength="20" pattern="[+0-9 \-]{9,20}" placeholder="050 123 4567" dir="ltr"></label>
+<label class="field"><span>هل لديك أيضاً بطاقات ائتمانية من دول أخرى؟ ما هي؟</span><small>اختياري. يساعدنا على اختيار الدولة التي نضيفها بعد ذلك.</small><input name="countries" maxlength="120" placeholder="مثلاً: الهند"></label>
+<label class="check"><input type="checkbox" name="consent" value="yes" required><span>أوافق على أن يحتفظ ميعاد بهذه البيانات في الإمارات ليدعوني وليخطط للدول التي سيضيفها، كما توضّح <a href="/ar/privacy.html#waitlist">سياسة الخصوصية</a>. وتُحذف بعد 12 شهراً من إرسالها.</span></label>
+<button class="btn gold" type="submit">انضم إلى قائمة الانتظار</button>
+</form></article>
+</main>
+<footer class="site-footer"><div class="wrap cols">
+<div class="brand"><img src="/assets/img/mark-on-light.svg" alt="" width="34" height="28"><div>
+
+<p><span class="ltr">Miaad, <span class="ltr">Mohamed Bin Zayed City, MBZ 19, Abu Dhabi, United Arab Emirates</span></span></p>
+<p><a href="mailto:hello@miaad.club">hello@miaad.club</a> · <a class="ltr" href="tel:+971588840928">+971 58 884 0928</a></p>
+<p>ميعاد ليس بنكاً ولا يحتفظ بأموالك أبداً.</p>
+<p><span class="ltr">© 2026 Miaad</span></p>
+</div></div>
+<nav class="links" aria-label="روابط">
+<a href="/ar/privacy.html">الخصوصية</a>
+<a href="/ar/terms.html">الشروط</a>
+<a href="/ar/support.html">المساعدة</a>
+</nav>
+</div></footer>
+</body>
+</html>
